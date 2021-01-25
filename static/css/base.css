@@ -1,0 +1,163 @@
+w-1 {
+  width: 10%;
+}
+
+w-2 {
+  width: 20%;
+}
+
+w-3 {
+  width: 30%;
+}
+
+w-4 {
+  width: 40%;
+}
+
+w-5 {
+  width: 50%;
+}
+
+w-6 {
+  width: 60%;
+}
+
+w-7 {
+  width: 70%;
+}
+
+w-8 {
+  width: 80%;
+}
+
+w-9 {
+  width: 90%;
+}
+
+w-10 {
+  width: 100%;
+}
+
+f-bs-1 {
+  width: 10%;
+  flex-basis: 10%;
+}
+
+f-bs-2 {
+  width: 20%;
+  flex-basis: 20%;
+}
+
+f-bs-3 {
+  width: 30%;
+  flex-basis: 30%;
+}
+
+f-bs-4 {
+  width: 40%;
+  flex-basis: 40%;
+}
+
+f-bs-5 {
+  width: 50%;
+  flex-basis: 50%;
+}
+
+f-bs-6 {
+  width: 60%;
+  flex-basis: 60%;
+}
+
+f-bs-7 {
+  width: 70%;
+  flex-basis: 70%;
+}
+
+f-bs-8 {
+  width: 80%;
+  flex-basis: 80%;
+}
+
+f-bs-9 {
+  width: 90%;
+  flex-basis: 90%;
+}
+
+f-bs-10 {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.f-wrp-w {
+  flex-wrap: wrap;
+}
+
+.f-wrp-nw {
+  flex-wrap: nowrap;
+}
+
+.f-wrp-h {
+  flex-wrap: hidden;
+}
+
+.f-ctn-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-ctn-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-ctn-r-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.f-ctn-r-col {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.f-jst-cen {
+  justify-content: center;
+}
+
+.f-jst-l {
+  justify-content: left;
+}
+
+.f-jst-r {
+  justify-content: right;
+}
+
+.f-jst-st {
+  justify-content: start;
+}
+
+.f-jst-ed {
+  justify-content: end;
+}
+
+.f-aln-cen {
+  align-items: center;
+}
+
+.f-aln-l {
+  align-items: left;
+}
+
+.f-aln-r {
+  align-items: right;
+}
+
+.f-aln-st {
+  align-items: start;
+}
+
+.f-aln-ed {
+  align-items: end;
+}
+
+/*# sourceMappingURL=base.css.map */

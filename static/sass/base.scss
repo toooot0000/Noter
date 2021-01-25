@@ -1,0 +1,64 @@
+$f-ctn-type: (
+	row: row,
+	col: column,
+	r-row: row-reverse,
+	r-col: column-reverse,
+);
+$f-ctn-just: (
+	cen: center,
+	l: left,
+	r: right,
+	st: start,
+	ed: end,
+);
+$f-ctn-aln: (
+	cen: center,
+	l: left,
+	r: right,
+	st: start,
+	ed: end,
+);
+
+$f-wrap: (
+	w: wrap,
+	nw: nowrap,
+	h: hidden,
+);
+
+@for $i from 1 through 10 {
+	w-#{$i} {
+		width: 10% * $i;
+	}
+}
+
+@for $i from 1 through 10 {
+	f-bs-#{$i} {
+		width: 10% * $i;
+		flex-basis: 10% * $i;
+	}
+}
+
+@each $name, $prop in $f-wrap {
+	.f-wrp-#{$name} {
+		flex-wrap: $prop;
+	}
+}
+
+@each $name, $prop in $f-ctn-type {
+	.f-ctn-#{$name} {
+		display: flex;
+		flex-direction: $prop;
+	}
+}
+
+@each $name, $prop in $f-ctn-just {
+	.f-jst-#{$name} {
+		justify-content: $prop;
+	}
+}
+
+@each $name, $prp in $f-ctn-aln {
+	.f-aln-#{$name} {
+		align-items: $prp;
+	}
+}
