@@ -1,2 +1,2 @@
-# 用来练手的uniapp项目
-就是个todo list
+# Todo List
+A simple Uni-App project, implementing todo-list app interfaces and a backend storing all todo-items
